@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 
+# slim
+gem 'slim-rails'
 # capybara
 gem 'capybara'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
