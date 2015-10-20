@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 
+# factory_girl
+gem 'factory_girl_rails'
 # slim
 gem 'slim-rails'
 # capybara
