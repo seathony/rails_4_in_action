@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 
 
+# simple-form
+gem 'simple_form'
+# awesome-font
+gem "font-awesome-rails"
+# bootstrap
+gem "bootstrap-sass"
 # factory_girl
 gem 'factory_girl_rails'
 # slim
