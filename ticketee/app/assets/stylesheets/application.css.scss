@@ -35,8 +35,10 @@ ul.actions {
   text-align: right;
 }
 
-a.new, a.edit, a.delete {
+a.new, a.edit, a.delete, .btn {
   @extend .btn;
+  
+  border-radius: 0px;
 
   &:before {
   font-family: "FontAwesome";
