@@ -3,6 +3,14 @@
     h1 = @project.name
     
   header
+    / h2 = @ticket.name
+    
+    = simple_format(@ticket.description)
+    
+  header
     h2 = @ticket.name
     
-  = simple_format(@ticket.description)
+    ul.actions
+      li = link_to "Edit Ticket", [:edit, @project, @ticket], \
+          class: "edit"
+      
