@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# devise
+gem "devise"
 # simple-form
 gem 'simple_form'
 # awesome-font
